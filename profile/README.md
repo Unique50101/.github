@@ -1,18 +1,38 @@
 # Unique
 
-We build open-source tools for developers. Our projects help you run AI models locally, check a project before sharing it, and follow what happens to a pull request after a backport.
+We build open-source tools for developers. Our projects help you run AI locally, review spreadsheets, check development environments, and track changes across release branches. We also make a racing game from your GitHub contributions.
 
-[![Suggest an idea](https://img.shields.io/badge/Suggest_an_idea-Open_an_issue-0969da)](https://github.com/Unique50101/.github/issues/new)
-[![Explore repositories](https://img.shields.io/badge/GitHub-Explore_repositories-24292f?logo=github)](https://github.com/orgs/Unique50101/repositories)
-[![uniquechat on PyPI](https://img.shields.io/pypi/v/uniquechat?label=uniquechat%20on%20PyPI&color=3775a9)](https://pypi.org/project/uniquechat/)
+[![Suggest an idea](https://raw.githubusercontent.com/Unique50101/.github/main/profile/suggest-idea.svg)](https://github.com/Unique50101/.github/issues/new) [![Explore repositories](https://raw.githubusercontent.com/Unique50101/.github/main/profile/repositories.svg)](https://github.com/orgs/Unique50101/repositories) [![uniquechat on PyPI](https://raw.githubusercontent.com/Unique50101/.github/main/profile/pypi.svg)](https://pypi.org/project/uniquechat/)
 
-## What you can build with our tools
+## Our projects
 
-| Project | When to use it |
+| Project | What you can do |
 | --- | --- |
-| [uniquechat](https://github.com/Unique50101/uniquechat) | Choose a Hugging Face model and chat with it on your computer. After the first download, you can take the model offline. |
-| [project-ready](https://github.com/Unique50101/project-ready) | Before handing a Node.js project to a teammate, check its Node version, dependencies, and environment setup from the terminal. |
-| [backport-revert-alert](https://github.com/Unique50101/backport-revert-alert) | When a change is reverted, find the backport pull requests that may need a follow-up. |
+| [uniquechat](https://github.com/Unique50101/uniquechat) | Pick a Hugging Face model, attach a file, and chat locally. Once the model is downloaded, you can use it offline. |
+| [SheetReview](https://github.com/Unique50101/unique-sheetreview) | Scan a CSV or Excel file for data-quality issues. Export a review copy that highlights the affected cells and suggests fixes. |
+| [Project Ready](https://github.com/Unique50101/project-ready) | Check a Node.js project for missing dependencies, incompatible Node versions, and missing environment variables before handing it to a teammate. |
+| [Commit Rally](https://github.com/Unique50101/commit-rally) | Turn your GitHub contributions into a racetrack, drive a lap, and challenge someone to beat your time. [Play a lap](https://unique50101.github.io/commit-rally/). |
+| [Backport Revert Alert](https://github.com/Unique50101/backport-revert-alert) | When a pull request reverts a fix, see which release branches received it and which backport pull requests are still open. |
+
+## See the projects in action
+
+### uniquechat
+
+Start with two lines of Python, choose a model, and open a local chat. This illustrated walkthrough shows the first download and a conversation with an image attachment.
+
+[![uniquechat illustrated walkthrough](https://raw.githubusercontent.com/Unique50101/uniquechat/main/docs/quickstart.gif)](https://github.com/Unique50101/uniquechat)
+
+### Project Ready
+
+Watch the CLI flag a missing `API_URL`, then rerun the check after adding it to `.env`.
+
+[![Project Ready detects and resolves a missing environment variable](https://raw.githubusercontent.com/Unique50101/project-ready/main/docs/setup-demo.gif)](https://github.com/Unique50101/project-ready)
+
+### Commit Rally
+
+The lime car changes lanes to hit boost gates while the cyan ghost replays a recorded lap. Select the animation to try the circuit.
+
+[![Commit Rally exhibition lap](https://raw.githubusercontent.com/Unique50101/commit-rally/main/assets/commit-rally.gif)](https://unique50101.github.io/commit-rally/)
 
 ## Have an idea?
 
