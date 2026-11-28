@@ -9,6 +9,7 @@ We build open-source tools for developers. Our projects help you run AI locally,
 | Project | What you can do |
 | --- | --- |
 | [Redo](https://github.com/Unique50101/redo) | See which manual QA checks to repeat after a new push to a pull request. [Install the GitHub Action](https://github.com/marketplace/actions/redo-manual-qa). |
+| [Unique Interface](https://github.com/Unique50101/unique-interface) | Turn a Python function into a shareable browser app. [Docs](https://uniqueopensources.web.app/docs/unique-interface) · [PyPI](https://pypi.org/project/unique-interface/) · [GitHub Packages](https://github.com/Unique50101/unique-interface/pkgs/container/unique-interface). |
 | [uniquechat](https://github.com/Unique50101/uniquechat) | Pick a Hugging Face model, attach a file, and chat locally. Once the model is downloaded, you can use it offline. |
 | [SheetReview](https://github.com/Unique50101/unique-sheetreview) | Scan a CSV or Excel file for data-quality issues. Export a review copy that highlights the affected cells and suggests fixes. |
 | [Project Ready](https://github.com/Unique50101/project-ready) | Check a Node.js project for missing dependencies, incompatible Node versions, and missing environment variables before handing it to a teammate. |
